@@ -1,0 +1,22 @@
+div {
+    border: 1px solid black;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    width: auto;
+    height: 100dvh;
+}
+
+.index-header {
+    display: grid;
+    grid-template-rows: 50px 1fr;
+}
+
+.index-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
